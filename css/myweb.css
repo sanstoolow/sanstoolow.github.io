@@ -782,13 +782,13 @@ a.blog-title {
 
 /* //more */
 .zhandou{
-    background: url(../images/f1.png);
+    background: url(images/f1.png);
     background-size: cover;
     width: 100%;
 }
 /* inner banner */
 .banner_w3lspvt-2 {
-    background: url(../images/1.jpg) no-repeat top;
+    background: url(images/1.jpg) no-repeat top;
     background-size: cover;
     height: 100%;
     width: 100%;
