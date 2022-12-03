@@ -562,7 +562,7 @@ a.nav-button {
 
 /* banner slider */
 .csslider>ul>li:first-child {
-    background: url(../images/2.jpg) no-repeat top;
+    background: url(images/2.jpg) no-repeat top;
     background-size: cover;
 	 -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -571,7 +571,7 @@ a.nav-button {
 }
 
 .csslider>ul>li:nth-child(2) {
-    background: url(../images/5.jpg) no-repeat right;
+    background: url(images/5.jpg) no-repeat right;
     background-size: cover;
 	 -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -782,13 +782,13 @@ a.blog-title {
 
 /* //more */
 .zhandou{
-    background: url(../images/f1.png);
+    background: url(images/f1.png);
     background-size: cover;
     width: 100%;
 }
 /* inner banner */
 .banner_w3lspvt-2 {
-    background: url(../images/1.jpg) no-repeat top;
+    background: url(images/1.jpg) no-repeat top;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -1070,7 +1070,7 @@ h3.main-title-w3pvt {
 }
 
 .about-right img {
-    background: url(../images/2.jpg)
+    background: url(images/2.jpg)
 	 -webkit-box-shadow: 0 20px 40px -10px rgba(0, 0, 0, .3);
     -moz-box-shadow: 0 20px 40px -10px rgba(0, 0, 0, .3);
     box-shadow: 0 20px 40px -10px rgba(0, 0, 0, .3);
@@ -1082,7 +1082,7 @@ h3.main-title-w3pvt {
 /* services */
 .serives-w3pvt-web {
     background-color: rgba(0, 0, 0, 0.6);
-    background: url(../images/bg1.jpg) no-repeat center;
+    background: url(images/bg1.jpg) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1091,19 +1091,19 @@ h3.main-title-w3pvt {
 }
 
 .services-w3ls-grid3 {
-    background:url("../images/lw.jpg");
+    background:url("images/lw.jpg");
     padding: 3em;
 	background-size: cover;
 	background-opacity: 0.25;
 }
 .services-w3ls-grid2{
-	background:url("../images/ts.jpg");
+	background:url("images/ts.jpg");
 	padding: 3em;
 	background-size: cover;
 	background-opacity: 0.25;
 }
 .services-w3ls-grid1{
-	background:url("../images/sh.jpg");
+	background:url("images/sh.jpg");
 	padding: 3em;
 	background-size: cover;
 	background-opacity: 0.25;
