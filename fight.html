@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>瞿明睿的原神世界</title>
+	<style>
+		body {
+			background-color: #EFEFEF;
+		}
+
+		.lanren {
+			width: 2000px;
+			height: 600px;
+			overflow: hidden;
+			margin: 0 auto;
+		}
+
+		.flip-3d {
+			perspective: 1200px;
+			width: 33%;
+			height: 100%;
+			float: left;
+		}
+
+		.flip-3d figure {
+			position: relative;
+			transform-style: preserve-3d;
+			transition: 1s transform;
+			font-size: 1.6rem;
+			margin: 25px;
+		}
+
+		.flip-3d figure img {
+			width: 100%;
+			height: auto;
+		}
+
+		.flip-3d figure figcaption {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			transform: rotateY(.5turn) translateZ(1px);
+			background: rgba(255, 255, 255, 0.9);
+			text-align: center;
+			padding-top: 45%;
+			opacity: 0.6;
+			transition: 1s .5s opacity;
+		}
+
+		.flip-3d:hover figure {
+			transform: rotateY(.5turn);
+		}
+
+		.flip-3d:hover figure figcaption {
+			opacity: 1;
+		}
+
+		.flip-3d figure:after {
+			content: " ";
+			display: block;
+			height: 8vw;
+			width: 100%;
+			transform: rotateX(90deg);
+			background-image: radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+		}
+
+		@media screen and (max-width: 800px) {
+			#flip-3d {
+				perspective-origin: center top;
+			}
+
+			div#flip-3d figure {
+				float: none;
+				width: 50%;
+				margin: 0 auto;
+				margin-bottom: 12vw;
+			}
+
+			.flip-3d figure figcaption {
+				font-size: 0.8rem;
+			}
+
+			div#flip-3d figure:last-child {
+				display: none;
+			}
+		}
+	</style>
+	<!-- 上面的是动画效果 -->
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="欲买桂花同载酒,只可惜故人,何日再见呢" />
+	<link rel="icon" href="images/search1.png">
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+
+	</script>
+	<!-- //Meta tag Keywords -->
+
+	<!-- Custom-Files -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Bootstrap-CSS -->
+	<link rel="stylesheet" href="css/myweb.css" type="text/css" media="all" />
+	<!-- Style-CSS -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<!-- Font-Awesome-Icons-CSS -->
+	<link rel="stylesheet" href="css/photos.css" type="text/css" media="all" />
+	<!-- //Custom-Files -->
+
+	<!-- Web-Fonts -->
+	<link
+		href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=devanagari,latin-ext"
+		rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Hind:300,400,500,600,700&amp;subset=devanagari,latin-ext"
+		rel="stylesheet">
+	<!-- //Web-Fonts -->
+</head>
+
+<body>
+	<div class="main-top" id="home">
+		<!-- header -->
+		<header>
+			<div class="container-fluid">
+				<div class="header d-md-flex justify-content-between align-items-center py-3 pl-2">
+					<!-- logo -->
+					<div id="logo">
+						<h1><a> </a></h1>
+					</div>
+					<!-- //logo -->
+					<!-- nav -->
+					<div class="nav_w3ls">
+						<nav>
+							<label for="drop" class="toggle">菜单</label>
+							<input type="checkbox" id="drop" />
+							<ul class="menu">
+								<li><a href="index.html" class="active nav-style">返回主页</a></li>
+								<li>
+									<!-- First Tier Drop Down -->
+									<label for="drop-2" class="toggle toogle-2 nav-style">目录 <span
+											class="fa fa-angle-down" aria-hidden="true"></span>
+									</label>
+									<a href="#" class="nav-style">目录 <span class="fa fa-angle-down"
+											aria-hidden="true"></span></a>
+									<input type="checkbox" id="drop-2" />
+									<ul>
+										<li><a href="world.html" class="drop-text">世界</a></li>
+										<li><a href="fight.html" class="drop-text">战斗系统</a></li>
+										<li><a href="contact.html" class="drop-text">联系我</a></li>
+									</ul>
+								</li>
+								<li><a href="https://ys.mihoyo.com/" class="nav-style">原神官网主页</a></li>
+							</ul>
+						</nav>
+					</div>
+					<!-- //nav -->
+				</div>
+			</div>
+		</header>
+		<!-- add music -->
+		<audio autoplay="autoplay" loop="loop" preload="auto" contols="false" src="audio/snow mountain.mp3">
+		</audio>
+		<!-- controls="controls"想控制的时候加上哦 -->
+		<!-- main banner -->
+		<div class="main-top" id="home">
+			<!-- header -->
+			<header>
+				<div class="container-fluid">
+					<div class="header d-md-flex justify-content-between align-items-center py-3 pl-2">
+						<!-- logo -->
+						<div id="logo">
+							<h1><a href="https://ys.mihoyo.com/">op之家</a></h1>
+						</div>
+						<!-- //logo -->
+						<!-- nav -->
+
+						<!-- //nav -->
+					</div>
+				</div>
+			</header>
+			<!-- //header -->
+			<div>
+				<img src="images/f2.png" class="zhandou" alt="" />
+			</div>
+			<div class="container py-xl-5 py-lg-3">
+				<div class="row about-main py-3">
+					<div class="col-lg-5 about-text-grid pr-xl-5">
+						<h3 class="main-title-w3pvt text-uppercase">战斗系统简介</h3>
+						<hr>
+						<p class="mt-4">元素系统</p>
+						<p class="mt-3">水、火、雷、岩、风、岩、冰</p>
+						<p class="mt-3">
+							构成这个世界种种奇妙现象的基石。不同的元素相互接触时，会发生各种各样奇妙的事情。提瓦特大陆上共有七种元素，分别是水，火，冰，岩，风，雷，草。这七种元素能相互作用，产生各种奇妙的反应。
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<img src="images/f1.png" class="zhandou" alt="" />
+			</div>
+			<div class="container py-xl-5 py-lg-3">
+				<div class="row about-main py-3">
+					<div class="col-lg-5 about-text-grid pr-xl-5">
+						<h3 class="main-title-w3pvt text-uppercase">战斗系统</h3>
+						<hr>
+						<p class="mt-4">战斗分为普通攻击和元素攻击，而元素攻击又分元素战技和元素爆发</p>
+						<p class="mt-3">图中迪卢克的F即为元素战技Q即为元素爆发</p>
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<img src="images/zdxt.png" class="zhandou" alt="" />
+			</div>
+
+			<div class="container py-xl-5 py-lg-3">
+				<div class="row about-main py-3">
+					<div class="col-lg-5 about-text-grid pr-xl-5">
+						<h3 class="main-title-w3pvt text-uppercase">以阿贝多为例</h3>
+						<hr>
+						<p class="mt-4">角色具有一定的攻击力和防御力，并且有元素精通这一非常重要的数值来联系不同的元素</p>
+						<p class="mt-3">攻击特效任然有暴击率和暴击伤害，提供倍率加成</p>
+						<p class="mt-3">此外，还有角色天赋对于技能倍率的提升，武器以及圣遗物也能提供绝大多数有用词条</p>
+						<p class="mt-3">元素充能也是原神战斗体系中一个非常重要的指标，同元素队伍和杂色队对充能的要求也不像相同</p>
+					</div>
+				</div>
+			</div>
+
+			<footer>
+				<div class="w3ls-footer-grids py-4">
+					<div class="container-fluid py-lg-3">
+						<ul class="list-unstyled footer-nav-wthree">
+							<li>
+								<a href="http://xiao-xiaols.gitee.io/library-of-mine/606.html"
+									class="zhonglideyiushang">欲买桂花同载酒,只可惜故人,何日再见呢</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+
+
+
+
+			<!-- //footer -->
+			<!-- copyright bottom -->
+			<div class="copy-bottom py-4">
+				<div class="container-fluid">
+					<div class="d-sm-flex px-md-3">
+						<!-- copyright -->
+						<div class="copy_right mr-auto">
+						</div>
+						<!-- //copyright -->
+						<!-- footer social icons -->
+
+						<!-- //footer social icons -->
+					</div>
+				</div>
+			</div>
+			<!-- //copyright bottom -->
+			<!-- move top icon -->
+			<a href="#home" class="move-top text-center">
+				<span class="fa fa-upload" aria-hidden="true"></span>
+			</a>
+			<!-- //move top icon -->
+
+</body>
+
+</html>

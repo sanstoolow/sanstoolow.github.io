@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>瞿明睿的原神世界</title>
+	<style>
+		body{ background-color:#EFEFEF;}
+		.lanren{width: 2000px;height: 600px;overflow:hidden;margin:0 auto;}
+		.flip-3d { 
+		  perspective: 1200px; width: 33%;height: 100%; float: left;  
+		}
+		.flip-3d figure { 
+		  position: relative; 
+		  transform-style: preserve-3d; 
+		  transition: 1s transform;
+		  font-size: 1.6rem;
+		  margin:25px;
+		}
+		.flip-3d figure img { 
+		  width: 100%; height: auto; 
+		}
+		.flip-3d figure figcaption { 
+		  position: absolute; 
+		  width: 100%; height: 100%; top: 0; 
+		  transform: rotateY(.5turn) translateZ(1px); 
+		  background: rgba(255,255,255,0.9); 
+		  text-align: center; 
+		  padding-top: 45%; 
+		  opacity: 0.6; 
+		  transition: 1s .5s opacity; 
+		}
+		.flip-3d:hover figure { transform: rotateY(.5turn); }
+		.flip-3d:hover figure figcaption { opacity: 1; }
+		.flip-3d figure:after { 
+		  content: " "; display: block;
+		  height: 8vw; width: 100%; 
+		  transform: rotateX(90deg); 
+		  background-image:radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%); 
+		}
+		@media screen and (max-width: 800px) { 
+		  #flip-3d { perspective-origin: center top; }
+			div#flip-3d figure { 
+			float: none; 
+			width: 50%; 
+			margin: 0 auto; 
+			margin-bottom: 12vw; 
+		  }
+		 .flip-3d figure figcaption{font-size: 0.8rem;}
+			div#flip-3d figure:last-child { display: none; }
+		}
+		</style>
+		<!-- 上面的是动画效果 -->
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="欲买桂花同载酒,只可惜故人,何日再见呢" />
+	<link rel="icon" href="images/search1.png">
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+
+	</script>
+	<!-- //Meta tag Keywords -->
+
+	<!-- Custom-Files -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Bootstrap-CSS -->
+	<link rel="stylesheet" href="css/myweb.css" type="text/css" media="all" />
+	<!-- Style-CSS -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<!-- Font-Awesome-Icons-CSS -->
+	<link rel="stylesheet" href="css/photos.css" type="text/css" media="all" />
+	<!-- //Custom-Files -->
+
+	<!-- Web-Fonts -->
+	<link
+		href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=devanagari,latin-ext"
+		rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Hind:300,400,500,600,700&amp;subset=devanagari,latin-ext"
+		rel="stylesheet">
+	<!-- //Web-Fonts -->
+</head>
+
+<body>
+	<div class="main-top" id="home">
+		<!-- header -->
+		<header>
+			<div class="container-fluid">
+				<div class="header d-md-flex justify-content-between align-items-center py-3 pl-2">
+					<!-- logo -->
+					<div id="logo">
+						<h1><a>               </a></h1>
+					</div>
+					<!-- //logo -->
+					<!-- nav -->
+					<div class="nav_w3ls">
+						<nav>
+							<label for="drop" class="toggle">菜单</label>
+							<input type="checkbox" id="drop" />
+							<ul class="menu">
+								<li><a href="index.html" class="active nav-style">返回主页</a></li>
+								<li>
+									<!-- First Tier Drop Down -->
+									<label for="drop-2" class="toggle toogle-2 nav-style">目录 <span
+											class="fa fa-angle-down" aria-hidden="true"></span>
+									</label>
+									<a href="#" class="nav-style">目录 <span class="fa fa-angle-down"
+											aria-hidden="true"></span></a>
+									<input type="checkbox" id="drop-2" />
+									<ul>
+										<li><a href="world.html" class="drop-text">世界</a></li>
+										<li><a href="fight.html" class="drop-text">战斗系统</a></li>
+										<li><a href="contact.html" class="drop-text">联系我</a></li>
+									</ul>
+								</li>
+								<li><a href="https://ys.mihoyo.com/" class="nav-style">原神官网主页</a></li>
+							</ul>
+						</nav>
+					</div>
+					<!-- //nav -->
+				</div>
+			</div>
+		</header>
+		<!-- //header -->
+	<!-- add music -->
+	<audio autoplay="autoplay" loop="loop" preload="auto" contols="false"src="audio/Dawn Winery Theme.mp3">
+	</audio>
+	<!-- controls="controls"想控制的时候加上哦 -->
+	<!-- main banner -->
+	<div class="main-top" id="home">
+		<!-- header -->
+		<header>
+			<div class="container-fluid">
+				<div class="header d-md-flex justify-content-between align-items-center py-3 pl-2">
+					<!-- logo -->
+					<div id="logo">
+						<h1><a href="https://ys.mihoyo.com/">op之家</a></h1>
+					</div>
+					<!-- //logo -->
+					<!-- nav -->
+
+					<!-- //nav -->
+				</div>
+			</div>
+		</header>
+		<!-- //header -->
+
+		<!-- banner -->
+		<div class="banner_w3lspvt-2">
+			<div class="container">
+				<div class="d-flex style-w3layouts">
+					<h4 class="inner-style-w3pvts mr-auto text-wh text-uppercase">About Us</h4>
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a
+								href="http://xiao-xiaols.gitee.io/library-of-mine/606.html">Home</a></li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<!-- //banner -->
+	</div>
+	<!-- //main banner -->
+
+	<!-- about-->
+	<section class="wthree-about py-5" id="about">
+		<div class="container py-xl-5 py-lg-3">
+			<div class="row about-main py-3">
+				<div class="col-lg-5 about-text-grid pr-xl-5">
+					<h3 class="main-title-w3pvt text-uppercase">原神简介</h3>
+					<hr>
+					<p class="mt-4">2020年米哈游开发的开放世界冒险游戏</p>
+					<p class="mt-3">作为故事的主人公，你从世界之外漂流而来，降临大地。你将在这广阔的世界中，自由旅行、结识同伴、寻找掌控尘世元素的七神，直到与分离的血亲重聚</p>
+					<p class="mt-4">
+						游戏发生在一个被称作“提瓦特”的幻想世界，在这里，被神选中的人将被授予“神之眼”，导引元素之力。玩家将扮演一位名为“旅行者”的神秘角色，在自由的旅行中邂逅性格各异、能力独特的同伴们，和他们一起击败强敌，找回失散的亲人——同时，逐步发掘“原神”的真相
+					</p>
+				</div>
+				<div class="col-lg-3 col-sm-5 about-right mt-lg-0 mt-5">
+					<img src="images/kl.jpg" class="img-fluid" alt="" />
+				</div>
+				<!-- <p class="mt-3">可莉可爱！！</p> -->
+				<div class="col-lg-4 col-sm-7 mt-lg-0 mt-5 about-right">
+					<img src="images/lh.jpg" class="img-fluid" alt="" />
+					<!-- <p class="mt-3">大小姐不值得吗！！</p> -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- //about -->
+
+	<!-- services -->
+	<!-- <div class="serives-w3pvt-web py-5" id="services">
+		<div class="container py-xl-5 py-lg-3">
+			<div class="row support-bottom text-center py-5">
+				<div class="col-lg-4">
+					<div class="services-w3ls-grid1">
+						<div class="serv-icon mx-auto">
+							<button class="lanren">旅行</button>
+						</div>
+						<h4 class="text-wh mt-md-4 mt-3 mb-3">美食</h4>
+						<p class="intoduction">旅行途中美食不能少</p>
+					</div>
+				</div>
+				<div class="col-lg-4 mt-lg-0 mt-4">
+					<div class="services-w3ls-grid2">
+						<div class="serv-icon clr-2 mx-auto">
+							<span>探索</span>
+						</div>
+						<h4 class="text-wh mt-md-4 mt-3 mb-3">宝箱</h4>
+						<p class="intoduction">这个世界也在回应我吗？</p>
+					</div>
+				</div>
+				<div class="col-lg-4 mt-lg-0 mt-4">
+					<div class="services-w3ls-grid3">
+						<div class="serv-icon clr-3 mx-auto">
+							<span>战斗</span>
+						</div>
+						<h4 class="text-wh mt-md-4 mt-3 mb-3">魔物</h4>
+						<p class="intoduction">满命满精（全自动打怪）</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	<!-- //services -->
+
+
+	<!-- 视频！！ -->
+	<iframe src="https://player.bilibili.com/player.html?aid=347772742&bvid=BV1bR4y1f7P2&cid=895476403&page=1"
+		scrolling="yes" border="0" frameborder="no" framespacing="0" allowfullscreen="true"
+		style="width: 100%;height: 900px;"> </iframe>
+
+
+
+
+
+
+
+
+	<footer>
+		<div class="w3ls-footer-grids py-4">
+			<div class="container-fluid py-lg-3">
+				<ul class="list-unstyled footer-nav-wthree">
+					<li>
+						<a href="http://xiao-xiaols.gitee.io/library-of-mine/606.html" class="zhonglideyiushang">欲买桂花同载酒,只可惜故人,何日再见呢</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+	<!-- //footer -->
+	<!-- copyright bottom -->
+	<div class="copy-bottom py-4">
+		<div class="container-fluid">
+			<div class="d-sm-flex px-md-3">
+				<!-- copyright -->
+				<div class="copy_right mr-auto">
+				</div>
+				<!-- //copyright -->
+				<!-- footer social icons -->
+
+				<!-- //footer social icons -->
+			</div>
+		</div>
+	</div>
+	<!-- //copyright bottom -->
+	<!-- move top icon -->
+	<a href="#home" class="move-top text-center">
+		<span class="fa fa-upload" aria-hidden="true"></span>
+	</a>
+	<!-- //move top icon -->
+
+</body>
+
+</html>
